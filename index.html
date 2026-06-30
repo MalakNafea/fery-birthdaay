@@ -1,0 +1,280 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Happy 20th Birthday Fery</title>
+
+<link rel="stylesheet" href="style.css">
+
+<link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600;700&display=swap" rel="stylesheet">
+
+</head>
+
+<body>
+
+<div class="floating-hearts"></div>
+
+<audio id="flipSound">
+    <source src="flip.mp3" type="audio/mpeg">
+</audio>
+
+<div class="hearts"></div>
+
+<audio id="music" loop>
+    <source src="music.mp3" type="audio/mpeg">
+</audio>
+
+<section id="page1" class="page active">
+
+    <h1>Before you turn 20...
+
+        There are a few things you need to see ❤️</h1>
+
+    <p>
+        There are a few things you need to see ❤️
+    </p>
+
+    <button onclick="nextPage(2)">
+        Open Your Gift 🎁
+    </button>
+
+</section>
+
+<section id="page2" class="page">
+
+    <img src="images/baby.jpg" class="main-image">
+
+    <h2>Once upon a time...</h2>
+
+    <p>
+        a beautiful little girl was born ❤️
+    </p>
+
+    <button onclick="nextPage(3)">
+        Continue ✨
+    </button>
+
+</section>
+<section id="page3" class="page">
+
+    <h2>Every picture tells a story 📸💗</h2>
+
+    <div class="scrapbook">
+
+        <div class="polaroid p1">
+            <div class="tape"></div>
+            <img src="images/photo1.jpg">
+        </div>
+
+        <div class="polaroid p2">
+            <div class="tape"></div>
+            <img src="images/photo2.jpg">
+        </div>
+
+        <div class="polaroid p3">
+            <div class="tape"></div>
+            <img src="images/photo3.jpg">
+        </div>
+
+        <div class="polaroid p4">
+            <div class="tape"></div>
+            <img src="images/photo4.jpg">
+        </div>
+
+        <div class="polaroid p5">
+            <div class="tape"></div>
+            <img src="images/photo5.jpg">
+        </div>
+
+        <div class="polaroid p6">
+            <div class="tape"></div>
+            <img src="images/photo6.jpg">
+        </div>
+
+        <div class="polaroid p7">
+            <div class="tape"></div>
+            <img src="images/photo7.jpg">
+        </div>
+
+        <div class="polaroid p8">
+            <div class="tape"></div>
+            <img src="images/photo8.jpg">
+        </div>
+        <div class="polaroid p9">
+            <div class="tape"></div>
+            <img src="images/photo9.jpg">
+        </div>
+        <div class="sticker flower1">🌸</div>
+<div class="sticker flower2">🌼</div>
+<div class="sticker heart1">💖</div>
+<div class="sticker heart2">💕</div>
+<div class="sticker star1">⭐</div>
+<div class="sticker bow">🎀</div>
+<div class="sticker sparkle">✨</div>
+
+    </div>
+
+    <button onclick="nextPage(4)">
+        Continue ❤️
+    </button>
+
+ </section>
+
+<section id="page4" class="page">
+
+        <h1>🎂</h1>
+    
+        <h2>One Last Thing...</h2>
+    
+        <p>
+            Before your birthday officially starts...
+            make a wish ✨
+        </p>
+    
+        <div class="cake">
+    
+            <div class="candles">
+    
+                <div class="candle">
+                    <div class="flame" id="flame1"></div>
+                </div>
+    
+                <div class="candle">
+                    <div class="flame" id="flame2"></div>
+                </div>
+    
+                <div class="candle">
+                    <div class="flame" id="flame3"></div>
+                </div>
+    
+                <div class="candle">
+                    <div class="flame" id="flame4"></div>
+                </div>
+    
+                <div class="candle">
+                    <div class="flame" id="flame5"></div>
+                </div>
+    
+            </div>
+    
+            <div class="cake-body"></div>
+    
+        </div>
+    
+        <button onclick="startMic()">
+    
+            🎤 Blow The Candles
+    
+        </button>
+    
+        <br><br>
+    
+        <button
+            id="continueCake"
+            onclick="nextPage(5)"
+            style="display:none;">
+    
+            Continue ❤️
+    
+        </button>
+
+</section>
+
+
+<section id="page5" class="page">
+
+    <img src="images/us.jpg" class="main-image">
+
+    <h2>My Message To You ❤️</h2>
+
+    <p class="long-message">
+       
+        
+        Happy 20th Birthday, Fery. 🤍 I honestly don't think words will ever be enough to tell you how much you mean to me. Some people come into our lives and make everything feel brighter without even trying, and you're one of those people. Thank you for every laugh we've shared, every memory we've made, every random conversation, and every little moment that somehow became one of my favorite memories. Life has been so much more beautiful because you were a part of it.
+        
+        I hope this new year brings you everything your heart has been quietly wishing for. I hope you always wake up with peace in your heart, excitement for what's coming next, and endless reasons to smile. You deserve every beautiful thing this world has to offer because you have one of the kindest hearts I've ever known.
+        
+        No matter how much time passes or how much life changes, I hope we always stay close and keep making memories that we'll laugh about years from now. Thank you for always being yourself, for making ordinary moments unforgettable, and for being someone I'm endlessly grateful to have in my life.
+        
+        Twenty looks so beautiful on you, but I know the years ahead will be even more beautiful because you'll keep growing into the amazing person you already are. I'll always be cheering for you, believing in you, and celebrating every little success that comes your way.
+        
+        Thank you for existing. Thank you for being you. I hope this birthday is only the beginning of your happiest chapter yet. Happy Birthday, my favorite person. I love you more than words could ever explain. ❤️✨
+        
+       P.S. Every memory with you will always have a special place in my heart, and I can't wait to make so many more together.** 🤍
+        
+
+    </p>
+
+    <button onclick="nextPage(6)">
+        Continue ✨
+    </button>
+
+</section>
+
+<section id="page6" class="page">
+
+    <div class="twenty">
+        20
+    </div>
+
+    <h2>Twenty Years</h2>
+
+    <p>
+        Countless memories,
+        endless love ❤️
+    </p>
+
+    <button onclick="nextPage(7)">
+        One Last Question 👀
+    </button>
+
+</section>
+
+<section id="page7" class="page">
+
+    <h2>
+        Wait...
+    </h2>
+
+    <h1>
+        Are you really 20 already?! 😭
+    </h1>
+
+    <div class="buttons">
+
+        <button onclick="nextPage(8)" class="yes">
+            Yes 🥹
+        </button>
+
+        <button id="noBtn" class="no">
+            No, I'm still 16 😌
+        </button>
+
+    </div>
+
+</section>
+
+<section id="page8" class="page">
+
+    <img src="images/final.jpg" class="main-image">
+
+    <h1>Happy 20th Birthday Fery 🎂</h1>
+
+    <p class="final-text">
+
+        Twenty years of beautiful memories,
+        love, family and happiness ❤️
+
+        <br><br>
+
+        May your 20th year be your happiest one yet ✨
+
+    </p>
+    <h2>🎉 🎂 🎉</h2>
+</section>
+
+<script src="script.js"></script>
+
+</body>
+</html>
